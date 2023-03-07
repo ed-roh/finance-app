@@ -49,10 +49,6 @@ const gridTemplateSmallScreens = `
 `;
 
 const Dashboard = () => {
-  const testFunction = async () => {
-    fetch("https://www.call-me-now-something.com");
-  };
-  testFunction();
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
   return (
     <Box
